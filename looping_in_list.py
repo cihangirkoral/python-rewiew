@@ -29,3 +29,4 @@ for magician in magicians:
     print(magician.title() + "  that was great show \nI look forward to seeing your next show with \n")
 
 print("Thanks everyone, it was great show")
+
