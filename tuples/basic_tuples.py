@@ -60,4 +60,4 @@ print(str(check_if_exist) + '\n')
 for country in countries:
     print(country)
 
-del countries
+del countries  
