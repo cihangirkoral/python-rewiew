@@ -20,7 +20,7 @@ def greeting_r(lang):
     return value
 
 
-test = greeting('Ilhan')
+# test = greeting('Ilhan')
 
 test = greeting_r('Ilhan')
 
