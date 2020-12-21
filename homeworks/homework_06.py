@@ -7,4 +7,14 @@
 # Enter Rate: 10
 
 # And then it return total amount money to be paid as float
-# Pay: 475.0
+# Pay: 450.0
+
+
+
+def computepay():
+    hours = int (input('give the hours'))
+    rate = int (input('give the rate'))
+    pay = hours * rate
+    print (pay)
+    
+computepay()
