@@ -12,9 +12,33 @@
 
 
 def computepay():
-    hours = int (input('give the hours'))
-    rate = int (input('give the rate'))
+    pay = 0
+    hours = (input('give the hours'))
+    while hours == str(hours):
+
+        try:
+            hours = int(hours)
+
+        except:
+            print ("Please enter a number")
+            hours = (input('give the hours'))
+
+        ###### rate ######
+    rate = (input('give the rate'))
+    while rate == str(rate):
+
+        try:
+            rate = int(rate)
+
+        except:
+            print ("Please enter a number")
+            rate = (input('give the rate'))
+
     pay = hours * rate
-    print (pay)
+    pay = float(pay)
+    # print ("Pay: " + str(pay))
+    return pay
     
-computepay()
+result = computepay()
+print ("Pay: " + str(result))
+

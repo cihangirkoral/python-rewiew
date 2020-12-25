@@ -35,3 +35,5 @@ def dortgen_alan(kisa_k, uzun_k):
 
 
 dortgen_alan(6, 8)
+
+greeting('es')
